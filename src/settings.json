@@ -1,0 +1,24 @@
+{
+  "init": {
+    "words": ["Ищу", "Подбираю", "Слова"],
+    "speed": 100 // Words per second
+  },
+  "text": {
+    "size": {
+      "min": 18,
+      "max": 50
+    },
+    "fonts": [
+      "Fira Sans",
+      "Lora",
+      "Montserrat",
+      "Noto Serif",
+      "Playfair Display",
+      "Vollkorn"
+    ]
+  },
+  "wordsUrl": "https://words-api.vercel.app/api/words",
+  "fail": {
+    "words": ["Нет", "Слов"]
+  }
+}

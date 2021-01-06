@@ -1,0 +1,31 @@
+{
+  "name": "mara",
+  "version": "1.0.0",
+  "description": "The news is designed to be intimidating. This site was created to show their essence.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flurescein/mara.git"
+  },
+  "keywords": [
+    "news",
+    "essence",
+    "fear",
+    "random",
+    "blink"
+  ],
+  "author": "flurescein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flurescein/mara/issues"
+  },
+  "homepage": "https://github.com/flurescein/mara#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.3"
+  }
+}
