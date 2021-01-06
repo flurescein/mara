@@ -34,8 +34,6 @@ setInterval(() => {
     getRandomBetween(0, screenSize.width),
     getRandomBetween(0, screenSize.height)
   )
-
-  document.title = wordToPrint
 }, 1000 / init.speed)
 
 // Getting news

@@ -1,7 +1,7 @@
 {
   "init": {
     "words": ["Ищу", "Подбираю", "Слова"],
-    "speed": 100 // Words per second
+    "speed": 100
   },
   "text": {
     "size": {
@@ -17,8 +17,16 @@
       "Vollkorn"
     ]
   },
-  "wordsUrl": "https://words-api.vercel.app/api/words",
+  "wordsUrl": "words.json",
   "fail": {
     "words": ["Нет", "Слов"]
-  }
+  },
+  "channels": [
+    "https://meduza.io/rss/all",
+    "https://lenta.ru/rss/news",
+    "https://russian.rt.com/inotv/s/rss/inotv_main.rss",
+    "https://tvrain.ru/export/rss/all.xml",
+    "https://rg.ru/xml/index.xml",
+    "https://katab.asia/feed/"
+  ]
 }
